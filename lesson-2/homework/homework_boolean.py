@@ -9,11 +9,11 @@ else:
 #2
 a=int(input("Enter a number:"))
 b=int(input("Enter another number:"))
-print(bool(a==b)) #checks if 2 numbers are equal
+print(a==b) #checks if 2 numbers are equal
 
 #3
-print(bool(0<a)) #checks if a is positive
-print(bool(a%2==0)) #checks if a is even
+print(0<a) #checks if a is positive
+print(a%2==0) #checks if a is even
 
 #4
 c=int(input("Enter number for c:"))
@@ -24,7 +24,7 @@ string1 = input("Enter a string:")
 string2 = input("Enter another string:")
 length1 = len(string1)
 length2 = len(string2)
-print(bool(length1==length2)) #checks if length of both strings are equal
+print(length1==length2) #checks if length of both strings are equal
 
 #6
 print(a%3==0 and a%5==0) #checks if a is divisible by 3 and 5
