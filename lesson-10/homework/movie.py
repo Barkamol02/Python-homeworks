@@ -2,7 +2,7 @@ import requests
 import random
 
 
-API_KEY = "2e69626753b93ed3c866f69d025810c5"
+API_KEY = "Your_API_KEY"
 BASE_URL = "https://api.themoviedb.org/3"
 
 
